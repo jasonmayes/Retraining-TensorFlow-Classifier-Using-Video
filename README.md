@@ -7,7 +7,7 @@ By Jason Mayes - www.jasonmayes.com
 
 ## Requirements
 1. Assumes max frames output per video is no more than 999999.
-2. Assumes you have already installed TensorFlow. See https://github.com/jasonmayes/Tensor-Flow-on-Google-Compute-Engine if not.
+2. Assumes you have already installed TensorFlow. See https://github.com/jasonmayes/Tensor-Flow-on-Google-Compute-Engine if not for my super fast getting started script.
 
 
 ## Usage
