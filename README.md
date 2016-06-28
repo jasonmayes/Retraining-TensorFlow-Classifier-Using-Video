@@ -52,6 +52,8 @@ In this case it would resize the width to be 320px and keep aspect ratio for hei
 ### Output
 Once complete your classifier files will  be available for usage in:
 
-```/tmp/classifiers/<unique_id>```
+```
+/tmp/classifiers/<unique_id>
+```
 
-Where ```<unique_id>``` is the unique ID you specified when calling the script.
+Where "unique_id" is the unique ID you specified when calling the script.
