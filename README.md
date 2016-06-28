@@ -5,9 +5,10 @@ Ah machine learning. Much fun when it works, a nightmare when it does not. Half 
 By Jason Mayes - www.jasonmayes.com
 
 
-## Requirements
+## Requirements and dependencies
 1. Assumes max frames output per video is no more than 999999.
 2. Assumes you have already installed TensorFlow. See https://github.com/jasonmayes/Tensor-Flow-on-Google-Compute-Engine if not for my super fast getting started script.
+3. Depends on same deps as https://github.com/jasonmayes/MP4-video-to-JPG-batch-converter as it makes use of this code. Namely this is FFMPEG.
 
 
 ## Usage
