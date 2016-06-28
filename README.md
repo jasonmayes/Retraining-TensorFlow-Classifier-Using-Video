@@ -43,7 +43,7 @@ Create 5 images every second of video (ie every 200ms)
 
 ### Usage Example 2 
 
-Optionally pass scale as 3nd parameter.
+Optionally pass scale as 4th parameter.
 
 ```script.sh 001_Unique_ID /home/user/zipFile.zip 5 320:-1```
 
