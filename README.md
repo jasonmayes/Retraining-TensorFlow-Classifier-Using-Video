@@ -6,13 +6,13 @@ By Jason Mayes - www.jasonmayes.com
 
 
 ## Requirements
-1. Assumes max frames per video is no more than 999999.
+1. Assumes max frames output per video is no more than 999999.
 2. Assumes you have already installed TensorFlow. See https://github.com/jasonmayes/Tensor-Flow-on-Google-Compute-Engine if not.
 
 
 ## Usage
 
-Please change the location of the TensorFlow install on line 51: TENSOR_FLOW_PATH to whereever you installed TensorFlow to on your system.
+Please change the location of the TensorFlow install on line 51: TENSOR_FLOW_PATH to where you installed TensorFlow to on your system.
 
 IMPORTANT: Zip file must consist of folders of videos only. These folders must not be inside any parent folder. For example this is a valid zip structure as all mp4s are only 1 level deep:
 ```
