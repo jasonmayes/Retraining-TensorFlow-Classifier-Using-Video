@@ -19,8 +19,9 @@
 
 Please change the location of the TensorFlow install on line 51: TENSOR_FLOW_PATH to where you installed TensorFlow to on your system.
 
-IMPORTANT: Zip file must consist of folders of videos only. These folders must not be inside any parent folder. For example this is a valid zip structure as all mp4s are only 1 level deep:
+IMPORTANT: Zip file must consist of folders of videos only. These folders must not be inside any parent folder. For example:
 ```
+This is a valid zip structure as all mp4s are only 1 level deep:
 myfile.zip
 -- object/
 ------ videoOfObject.mp4
@@ -28,6 +29,7 @@ myfile.zip
 -- Not Object/
 ------ videoOfEnvironment.mp4
 ------ videoOfEnvironment2.mp4
+
 
 However the following structure IS NOT VALID:
 myfile.zip
