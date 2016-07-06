@@ -1,8 +1,12 @@
 # Retraining TensorFlow Binary Image Classifier Using MP4 Video
 
-Ah machine learning. Much fun when it works, a nightmare when it does not. Half of the problem is finding enough training material for your classifiers. I figured a great way to do this is to use video as in input source. I made this script to convert all MP4 videos in a zip archive to JPG frames at a desired FPS with unique names. It will then retrain the top layers of a binary image classifier using TensorFlow using these extracted images. About 5 to 10 mins of video shot on your smartphone should do the trick.
+**Ah machine learning. Much fun when it works, a nightmare when it does not. Half of the problem is finding enough training material for your classifiers. I figured a great way to do this is to use video as in input source. This script will convert all MP4 videos in a zip archive to JPG frames at a desired FPS with unique names.**
 
-By Jason Mayes - www.jasonmayes.com
+**It will then retrain the top layers of a binary image classifier using TensorFlow using these extracted images allowing you to then recognize the object of your desire. About 5 to 10 mins of video shot on your smartphone should do the trick (5 mins with object in, 5 mins without object). You should aim to get video of the object in the environments you wish to classify it in later, with different lighting condtions, rotations, distances etc. If you are holding the object make sure to take video with and without your hand otherwise it may learn your hand as the object!**
+
+**Hopefully this will make using Machine Learning a little bit easier for us all, so we can concentrate on actually doing what we want to do (in this case recognizing custom objects), rather than spending months just trying to get the environment working :-)**
+
+**By Jason Mayes - www.jasonmayes.com - let me know how you use it!**
 
 
 ## Requirements and dependencies
